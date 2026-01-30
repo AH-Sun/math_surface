@@ -503,28 +503,6 @@ body {
         'icon'
         'links';
     }
-
-    #wrapper {
-        /* 手机端建议缩小侧边栏，给中间留更多空间 */
-        grid-template-columns: 2rem 1fr 2rem; 
-    }
-
-    #wrapper .tri-left {
-        margin: -1px 0 0 0 !important; /* 消除手机端多余的 1px 偏移 */
-        width: 5vh;
-        height: 5vh;
-    }
-
-    #wrapper .tri-right {
-        margin: -1px 0 0 auto !important;
-        width: 5vh;
-        height: 5vh;
-    }
-    
-    /* 确保 user-bar 宽度与三角形对齐 */
-    #wrapper #user-bar {
-        width: calc(100% - 4rem); /* 2rem + 2rem */
-    }
     
   }
   
@@ -665,5 +643,6 @@ html.lenis body {
 .left-margin {
   margin-left: 0;
 }
+
 
 
